@@ -1,4 +1,4 @@
-// Sum all the prime numbers
+//5. Sum all the prime numbers
 function sumPrime(num) {
   let totalPrime = 0;
   if (num < 2) {
