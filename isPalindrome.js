@@ -13,4 +13,4 @@ function isPalindrome(num) {
   return ans;
 }
 
-console.log(isPalindrome(344));
+console.log(isPalindrome(-11));
