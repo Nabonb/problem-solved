@@ -3,6 +3,7 @@
 function runningSum(nums) {
   let runningSum = [];
   let sum = 0;
+
   for (let i = 0; i < nums.length; i++) {
     sum = sum + nums[i]; //1,1+1
     runningSum[i] = sum;
