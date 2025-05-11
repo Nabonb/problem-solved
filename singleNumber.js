@@ -1,5 +1,15 @@
 //51. Single Number
 
-function singleNumber(nums) {}
+function singleNumber(nums) {
+  let sortedNum = nums.sort();
 
-console.log(singleNumber([2, 2, 1]));
+  for (let i = 0; i < sortedNum.length; i++) {
+    if (sortedNum[i] === sortedNum[i + 1]) {
+      i++;
+    } else {
+      return sortedNum[i];
+    }
+  }
+}
+
+console.log(singleNumber([4]));
